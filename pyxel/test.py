@@ -2,7 +2,7 @@ import pyxel
 
 class App:
     def __init__(self): # 初期化
-        pyxel.init(100, 100, gamepad = False)
+        pyxel.init(160, 256, gamepad = False)
         self.x = 0
         pyxel.run(self.update, self.draw) # アプリケーションの実行
 
